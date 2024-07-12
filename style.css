@@ -12,7 +12,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
-    height: 120px;
+    height: 150px;
     top: 0;
     background-color: rgb(220, 153, 60);
 }
@@ -20,7 +20,412 @@ nav {
 .navbar img {
     width: 110px;
     margin-bottom: 20px;
+    padding-bottom: 30px;
 }
-.navbar p{
+.navbar h1{
     font-family: 'Black Ops One', cursive;
+    font-size: 750%;
+    margin-left: 20px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px black;
 }
+ 
+
+  
+
+.caption h4{
+    
+        display: flex;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: sticky;
+        top: 0px;
+        color: rgb(48, 31, 19);
+        background-color: rgb(220, 153, 60);
+        font-size: 16px;
+        justify-content: center;
+    }
+
+    #home{
+        display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 208, 118);
+    /* height: 700px; */
+    justify-content: start;
+    align-items: center;
+    color: rgb(48, 31, 19);
+    }
+
+
+.main{
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.head{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 55px;
+    text-align: center;
+    
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.content {
+    border: 1px solid rgb(48, 31, 19);
+    padding: 50px;
+    margin: 50px;
+    margin-left: 19%;
+    margin-right: 19%;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+}
+#type {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 208, 118);
+  
+    justify-content: start;
+    align-items: center;
+    color: rgb(48, 31, 19);
+}
+
+.type {
+    padding: 0px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.heading{
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+}
+.type ul {
+    margin-left: 25px;
+   
+    margin-right: 25px;
+}
+.type ul li {
+    margin-top: 20px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+#brand {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(236, 208, 118);
+}
+.row1{
+    
+        margin-right: 4%;
+        margin-left: 10%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .head2{
+        text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    top: 0;
+    font-weight: bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+    }
+
+
+    .pic1 {
+        display: flex;
+    }
+
+    .pic1 img {
+        width: 250px;
+        height: 250px;
+        border-radius: 15px;
+    }
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding-left: 2%;
+    }
+
+    .intro h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    .brand-p {
+        margin-left: 10%;
+        margin-right: 10%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: justify;
+       
+        margin-top: 25px;
+    }
+
+    .dunkin {
+        display: flex;
+        padding: 0px;
+    }
+
+    .row2{
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+        text-align: unset;
+    }
+    .row2 h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: justify;
+    }
+    .brand-p2 {
+        margin: 50px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: justify;
+        margin-right: 100px;
+        margin-top: 15px;
+    }
+
+    .pic2 {
+        width: 250px;
+        height: 250px;
+        margin-right: 90px;
+        border-radius: 15px;
+    }
+
+    .intro1 {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding-left: 2%;
+    }
+
+    .intro1 h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: justify;
+    }
+
+    /* #gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        background-color: rgb(236, 208, 118);
+    } */
+
+    .heading-type {
+        text-align: center;
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 60px;
+        top: 0;
+        font-weight: bolder;
+        color: rgb(48, 31, 19);
+        text-shadow: 2px 3px 4px black;
+    }
+
+    /* .gallery {
+        
+        display: grid;
+        grid-template-columns: repeat(3, 10fr);
+        grid-gap: 40px;
+        background-color: rgb(220, 153, 60);
+        margin: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 19%;
+        padding-right: 19%;
+    } */
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: rgb(236, 208, 118);
+    }
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:rgb(113, 61, 9);
+    color: rgb(220, 153, 60);
+   
+    
+}
+    .form {
+        border: 3px solid rgb(48, 31, 19);
+        border-radius: 8px;
+        text-align: justify;
+        align-items: center;
+        padding: 10px;
+        margin: 20px;
+        margin-left: 15%;
+        margin-right: 15%;
+        background-color: rgb(220, 153, 60);
+    }
+
+    #contact table {
+        padding: 80px;
+        margin: 10px;
+    }
+    #contact p {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 18px;
+    }
+    .input {
+        height: 30px;
+        width: 350px;
+        border-radius: 5px;
+    }
+
+    footer {
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background: rgb(220, 153, 60);
+        margin: 0;
+        /* margin-top: 50px; */
+        padding: 50px;
+        position: relative;
+    }
+
+    footer div {
+        justify-content: center;
+        align-items: center;
+        margin-left: 80px;
+    }
+
+    .footer img {
+        width: 150px;
+    }
+
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px / 1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .address {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(48, 31, 19);
+    }
+
+    .address a {
+        text-decoration: none;
+        font-weight: 700;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(113, 61, 9);
+    }
+
+    #gallery{
+        display: block;
+        background-color: rgb(220, 153, 60);
+    }
+
+    .gallery{
+        margin-left: 15%;
+        margin-right: 15%;
+        display: block;
+
+    }
+
+    .g1{
+display: flex;
+    }
+
+    .g1 img{
+        margin-right: 50px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+    }
+
+    footer{
+        padding-top: 50px;
+        background-color: rgb(220, 153, 60);
+        height: 300px;
+        width: 100%;
+        
+    }
+    
+    footer div{
+        display: flex;
+    }
+    .reach{
+        display: block;
+        margin-left: 100px;
+    }
+    
+    .link{
+        color:rgb(48, 31, 19);
+        margin-top: 14px;
+    }
+    .link i,p{
+        padding: 3px;
+    }
+    
+    .pa{
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    
+    .address{
+        margin-top: 50px;
+        display: block;
+        margin-left: 100px;
+    }
+    
+    .p:hover{
+       color: white; 
+    }
